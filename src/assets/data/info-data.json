@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Stunning Design",
+    "description": "Our team of talented designers is dedicated to creating visually stunning websites that will wow your customers."
+  },
+  {
+    "id": 2,
+    "name": "Expert Development Team",
+    "description": "Our team of experienced developers has a passion for gaming and a commitment to excellence."
+  },
+  {
+    "id": 3,
+    "name": "Cost Effective Solutions",
+    "description": "Our services are competitively priced, ensuring that you get the best value for your money."
+  },
+  {
+    "id": 4,
+    "name": "Unparalleled Support",
+    "description": "We offer 24/7 support to ensure that your website is always up and running."
+  },
+  {
+    "id": 5,
+    "name": "Comprehensive Marketing",
+    "description": "Our marketing experts have a wealth of experience in promoting games and apps."
+  },
+  {
+    "id": 6,
+    "name": "Maintenance And Upgrades",
+    "description": "We offer maintenance and upgrades to ensure that your website is always up to date."
+  }
+]

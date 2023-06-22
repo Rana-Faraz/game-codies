@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Game Design",
+    "description": "Our talented designers create visually stunning and user-friendly interfaces that enhance the gaming experience. We take pride in crafting attractive design."
+  },
+  {
+    "id": 2,
+    "name": "Game Development",
+    "description": "Our team of experienced developers creates top-notch mobile games for Android, utilizing the latest technology and industry standards."
+  },
+  {
+    "id": 3,
+    "name": "ASO",
+    "description": "We offer comprehensive ASO services to help our clients’ games rank higher on app stores, attracting more organic downloads."
+  },
+  {
+    "id": 4,
+    "name": "Marketing",
+    "description": "Our marketing experts help promote your game through various channels, including social media, influencer marketing, and ad campaigns."
+  }
+]

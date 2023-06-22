@@ -1,0 +1,107 @@
+.container {
+  padding: 80px 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.title_2 {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+.contact_container {
+  display: flex;
+  margin-top: 40px;
+  width: 500px;
+  cursor: pointer;
+}
+.icon {
+  font-size: 2rem;
+  height: 100px;
+  width: 100px;
+  background-color: rgba(148, 163, 184, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 400px;
+  background-color: #212121;
+}
+.info {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 20px;
+  line-height: 1.5;
+}
+.split_container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.input {
+  width: 100%;
+  border: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  border-radius: 0.125rem;
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(36 36 36 / var(--tw-border-opacity));
+  background-color: rgba(148, 163, 184, 0.1);
+  padding: 1rem 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+  resize: vertical;
+}
+.input:focus,
+.input:active {
+  outline: 2px solid #2b92ea;
+  outline-offset: 2px;
+  border-color: transparent;
+  color: white;
+}
+.input:hover {
+  border-color: transparent;
+  color: white;
+}
+.button {
+  padding: 1rem 1.5rem;
+  background-color: #2b92ea;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: #107edf;
+}
