@@ -13,12 +13,7 @@ function Contact() {
         <h3 className={Styles.subtitle}>Contact</h3>
         <h1 className={Styles.title_2}>Connect With Us</h1>
         <div className={Styles.split_container}>
-          <div
-            style={{
-              display: "flex",
-              gap: "2rem",
-            }}
-          >
+          <div className={Styles.left_container}>
             {/* Address */}
             <div className={Styles.contact_container}>
               <div className={Styles.icon}>

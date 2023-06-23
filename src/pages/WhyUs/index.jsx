@@ -26,13 +26,7 @@ function WhyUs() {
           top-quality Development, Designing, ASO, and Marketing services, look
           no further than us.
         </p>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(3, 1fr)",
-            gap: "2rem",
-          }}
-        >
+        <div className={Styles.info_container}>
           {Data.map((item, index) => (
             <InfoBox
               key={index}

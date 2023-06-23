@@ -16,3 +16,31 @@
   line-height: 1.5;
   width: 50%;
 }
+.info_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+@media screen and (max-width: 1042px) {
+  .info_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .subtitle {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .container {
+    width: 100%;
+  }
+  .info_container {
+    grid-template-columns: 1fr;
+  }
+  .title_2 {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}

@@ -70,3 +70,21 @@ u {
   color: #fff;
   scale: 1.1;
 }
+@media screen and (max-width: 850px) {
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .title_2 {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+}
