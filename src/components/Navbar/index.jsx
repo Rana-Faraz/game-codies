@@ -37,13 +37,28 @@ function Navbar() {
           <button className={Styles.close_menu} onClick={toggleMenu}>
             <FaTimes />
           </button>
-          <ul className={Styles.mobile_nav}>
+          <motion.ul
+            initial={{
+              x: -100,
+              opacity: 0,
+            }}
+            whileInView={{
+              x: 0,
+              opacity: 1,
+              transition: {
+                duration: 0.5,
+                staggerChildren: 0.2,
+                delayChildren: 0.2,
+              },
+            }}
+            className={Styles.mobile_nav}
+          >
             <li className={Styles.mobile_nav_link}>Home</li>
             <li className={Styles.mobile_nav_link}>Products</li>
             <li className={Styles.mobile_nav_link}>Services</li>
             <li className={Styles.mobile_nav_link}>About</li>
             <li className={Styles.mobile_nav_link}>Contact</li>
-          </ul>
+          </motion.ul>
         </div>
       </div>
     </motion.div>
