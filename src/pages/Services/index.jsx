@@ -20,7 +20,12 @@ function Services() {
         <h1 className={Styles.title_2}>Exquisite Offerings</h1>
         <div className={Styles.services_container}>
           {Data.map((service, i) => (
-            <ServiceBox {...service} image={images[i]} key={service.id} />
+            <ServiceBox
+              {...service}
+              image={images[i]}
+              key={service.id}
+              id={service.id}
+            />
           ))}
         </div>
       </div>

@@ -33,6 +33,7 @@ function WhyUs() {
               icon={icons[index]}
               title={item.name}
               description={item.description}
+              id={index}
             />
           ))}
         </div>

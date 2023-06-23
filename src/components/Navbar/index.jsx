@@ -1,7 +1,8 @@
 import React from "react";
 import Styles from "./styles.module.css";
 import Logo from "../../assets/logo.png";
-import { FaBars, FaCross, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function Navbar() {
   const mobileNav = React.useRef(null);
@@ -19,7 +20,7 @@ function Navbar() {
     }
   }, [menu]);
   return (
-    <div className={Styles.container}>
+    <motion.div className={Styles.container}>
       <div className={Styles.navbar}>
         <img src={Logo} alt="Game Codies Logo" className={Styles.logo_img} />
         <ul className={Styles.nav_items}>
@@ -45,7 +46,7 @@ function Navbar() {
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

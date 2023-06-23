@@ -1,11 +1,26 @@
 import React from "react";
 import Styles from "./styles.module.css";
 import Image from "../../assets/images/2.jpg";
+import { motion } from "framer-motion";
 
 function Overview() {
   return (
     <div className={Styles.container}>
-      <div className={Styles.left_side}>
+      <motion.div
+        initial={{
+          x: -100,
+          opacity: 0,
+        }}
+        whileInView={{
+          x: 0,
+          opacity: 1,
+        }}
+        transition={{
+          type: "spring",
+          duration: 0.8,
+        }}
+        className={Styles.left_side}
+      >
         <h3 className={Styles.subtitle}>Overview</h3>
         <h1 className={Styles.title_2}>Defying Boundaries</h1>
         <p>
@@ -21,10 +36,24 @@ function Overview() {
           based on feedback.
         </p>
         <button className={Styles.action_button}>Services</button>
-      </div>
-      <div className={Styles.right_side}>
+      </motion.div>
+      <motion.div
+        initial={{
+          x: 100,
+          opacity: 0,
+        }}
+        whileInView={{
+          x: 0,
+          opacity: 1,
+        }}
+        transition={{
+          type: "spring",
+          duration: 0.8,
+        }}
+        className={Styles.right_side}
+      >
         <img src={Image} alt="" className={Styles.image} width={"100%"} />
-      </div>
+      </motion.div>
     </div>
   );
 }
