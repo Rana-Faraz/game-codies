@@ -8,4 +8,15 @@
 body {
   background-color: #242424;
   color: #fff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
